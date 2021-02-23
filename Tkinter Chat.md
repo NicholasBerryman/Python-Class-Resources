@@ -83,9 +83,9 @@ We won't use any graphics yet, but we might add some later, when it all works!
   * `EnemyAttack` - The damage the enemy does
   * `EnemyDefence` - The amount of armour the enemy has
 * Then, we want to make an infinite loop that asks our player what they want to do - attack, defend, or charge up?
-  * If they choose 'attack' - then take away some enemy HP! (Make sure to think about attack and defence here!)
-  * If they choose 'defend' - then boost the player's defence!
-  * If they choose 'charge up' - then boost the player's attack!
+  * If they choose `'attack'` - then take away some enemy HP! (Make sure to think about attack and defence here!)
+  * If they choose `'defend'` - then boost the player's defence!
+  * If they choose `'charge up'` - then boost the player's attack!
 * Then do the same for the enemy - that way they can take turns!
 * Test out the game in a single file (no sockets yet!), and make sure it works right - try and fix any problems you run into
 
