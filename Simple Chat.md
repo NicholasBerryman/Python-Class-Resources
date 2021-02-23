@@ -53,7 +53,7 @@ The code should be very similar for both the server and client:
     * `recievedMessage = client.recv(1024)`
     * The number in the brackets is the maximum message size. Make sure it's big enough, but things won't work if it's TOO big. 1024 is a good maximum size to use most of the time.
 * Finally, you'll need to print out the message that you recieve:
-    * `print("Received:",recvMsg.decode())`
+    * `print("Received:",recvievedMessage.decode())`
     * You need to use '.decode()', because that decodes back into text from the 1s and 0s that sockets expect to recieve
     
 ## Testing out the program
